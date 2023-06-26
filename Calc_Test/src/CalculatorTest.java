@@ -23,4 +23,12 @@ class CalculatorTest {
                 () -> assertEquals(0, Calculator.multiply(1, 0)));
 
     }
+    @Test
+    @DisplayName("Heute Stopp")
+    void Jules() {
+
+        assertAll(() -> assertEquals("Ja", Calculator.Jules()));
+
+
+    }
 }
