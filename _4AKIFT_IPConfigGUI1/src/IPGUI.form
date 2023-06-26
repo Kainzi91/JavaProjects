@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="IPGUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+    <margin top="15" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-12894399"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="line">
+      <color color="-15877376"/>
+    </border>
+    <children>
+      <component id="a73b3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-15877376"/>
+          <text value="IPConfig GUI"/>
+        </properties>
+      </component>
+      <component id="396a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <foreground color="-15877376"/>
+          <text value="Netzwerk Adapter"/>
+        </properties>
+      </component>
+      <component id="3cffa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <foreground color="-15877376"/>
+          <text value="Informationen"/>
+        </properties>
+      </component>
+      <vspacer id="b9d8d">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="28fd1" class="javax.swing.JComboBox" binding="comboBoxAdapter">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12894399"/>
+          <font name="Courier New" size="14" style="0"/>
+          <foreground color="-15877376"/>
+        </properties>
+      </component>
+      <component id="91b5b" class="javax.swing.JTextArea" binding="textAreaInformation">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12894399"/>
+          <editable value="false"/>
+          <font name="Courier New" size="14" style="0"/>
+          <foreground color="-15877376"/>
+        </properties>
+      </component>
+      <component id="a6825" class="javax.swing.JButton" binding="buttonBeenden">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12894399"/>
+          <font name="Courier New" size="14" style="0"/>
+          <foreground color="-15877376"/>
+          <text value="Beenden"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
