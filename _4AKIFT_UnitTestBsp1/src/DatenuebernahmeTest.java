@@ -29,7 +29,7 @@ class DatenuebernahmeTest {
         datenuebernahme.setId_person(0);
         assertEquals(0,datenuebernahme.getId_person());
     }
-    @AfterAll
+    @BeforeAll
     static void initAll(){
         System.out.println("Alle Inits durchgeführt");
     }

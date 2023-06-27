@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+      DatenuebernahmeTest test =new DatenuebernahmeTest();
+      RangListeTest test1= new RangListeTest();
+      RechnerTest test3 =new RechnerTest();
     }
 }
